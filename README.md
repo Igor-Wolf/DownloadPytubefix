@@ -8,5 +8,5 @@ Os testes foram realizados no windows
 
 ## Organização dos Arquivos
 
-![Organização dos Arquivos](https://github.com/Igor-Wolf/GameList/blob/main/demo.png?raw=true)
+![Organização dos Arquivos](https://github.com/Igor-Wolf/DownloadPytubefix/blob/main/demo.png?raw=true)
 
