@@ -1,6 +1,10 @@
 # DownloadPytubefix
 
-Este projeto tem como objetivo desenvolver um aplicativo de baixar videos e converter em audio. É necessario ter o python instalado na máquina e é necessario manter uma cópia do executavel do ffmpeg na raiz do programa
+Este projeto tem como objetivo desenvolver um aplicativo de baixar videos e converter em audio. É necessario ter o python instalado na máquina, a lib pytubefix, e é necessario manter uma cópia do executavel do ffmpeg na raiz do programa
+
+![Baixar o python](https://www.python.org/downloads/windows/)
+
+pip install pytubefix (comando da lib do pytubefix)
 
 ![Executavel do ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip)
 
