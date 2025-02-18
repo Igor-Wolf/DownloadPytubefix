@@ -1,4 +1,4 @@
-# DownloadPytubefix
+# DownloadPytubefix (Defasado devido às atualizações do youtube)
 
 Este projeto tem como objetivo desenvolver um aplicativo de baixar videos e converter em audio. É necessario ter o python instalado na máquina, a lib pytubefix, e é necessario manter uma cópia do executavel do ffmpeg na raiz do programa
 
