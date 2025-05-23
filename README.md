@@ -1,4 +1,4 @@
-# DownloadPytubefix (Defasado devido às atualizações do youtube)
+# DownloadPytubefix (Atualizado)
 
 Este projeto tem como objetivo desenvolver um aplicativo de baixar videos e converter em audio. É necessario ter o python instalado na máquina, a lib pytubefix, e é necessario manter uma cópia do executavel do ffmpeg na raiz do programa
 
@@ -20,3 +20,24 @@ Copie os links dos videos que desejar baixar para o arquivo urls.txt lembrando d
 
 ![Organização dos Arquivos](https://github.com/Igor-Wolf/DownloadPytubefix/blob/main/demo.png?raw=true)
 
+## Passo a passo com uma venv
+
+- Crie uma venv
+
+py -3.10 -m venv venv310
+
+- Ative a venv
+
+.\venv310\Scripts\activate
+
+- Instale os requirements.txt
+
+pip install -r requirements.txt
+
+- Coloque o ffmpeg na pasta raiz dos scripts
+
+- Adicione as urls dos viedos no urls.txt
+
+- Rode rode o arquivo main.py
+
+python main.py

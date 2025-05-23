@@ -1,20 +1,21 @@
 import subprocess
+import sys
+import io
 
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 def run_script(script_name):
-    """Executa um script Python e retorna True se a execução for bem-sucedida, False caso contrário."""
     try:
-        print(f"Executando {script_name}...")
-        result = subprocess.run(['python', script_name], check=True, text=True, capture_output=True)
-        print(result.stdout)  # Exibe a saída do script
+        print(f"Executando {script_name} com {sys.executable}...")
+        result = subprocess.run([sys.executable, script_name], check=True, text=True, capture_output=True)
+        print(result.stdout)
         return True
     except subprocess.CalledProcessError as e:
         print(f"Erro ao executar {script_name}:")
-        print(e.stderr)  # Exibe a saída de erro do script
+        print(e.stderr)
         return False
 
 # Executa o script.py
 if run_script('script.py'):
-    # Executa o conversor.py somente se script.py for bem-sucedido
     if run_script('conversor.py'):
         print("Todos os scripts foram executados com sucesso.")
     else:
