@@ -1,8 +1,6 @@
 import subprocess
 import sys
-import io
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 def run_script(script_name):
     try:
         print(f"Executando {script_name} com {sys.executable}...")
